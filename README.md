@@ -93,15 +93,10 @@ Após os merges bem-sucedidos, foram criadas tags de versão:
 
 4. Histórico de Commits (Resumo)
 AUTOR          |  MENSAGEM DO COMMIT	                        |  DATA
-___________________________________________________________________________
 Matheus Rocha	 |   feat: criar estrutura inicial do projeto	  |  03/11/2025
-___________________________________________________________________________
 Ellen Domeni	 |   feat: adicionar validação de formulário	  |  04/11/2025
-___________________________________________________________________________
 Maria Eduarda	 |   feat: implementar função de marcar tarefa  |  04/11/2025
-___________________________________________________________________________
 Luiz Felipe	   |   fix: corrigir erro de CSS	                |  05/11/2025
-___________________________________________________________________________
 Matheus Rocha	 |   merge: integrar branch develop com main	  |  06/11/2025
 
 
@@ -109,10 +104,7 @@ Matheus Rocha	 |   merge: integrar branch develop com main	  |  06/11/2025
 6. Dificuldades e Soluções Adotadas
 
 DIFICULDADES                     | SOLUÇÃO
-______________________________________________________________________________________________________________________
 Conflitos de merge simultâneos	 |  Reunião rápida entre os membros e uso da ferramenta de comparação visual do GitHub
-______________________________________________________________________________________________________________________
 Falhas de push por autenticação  |  Configuração de tokens pessoais (PAT) e SSH keys
-______________________________________________________________________________________________________________________
 Erros em commits indevidos       |  Uso do comando git revert para desfazer alterações com segurança
 
