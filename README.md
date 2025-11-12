@@ -10,44 +10,30 @@ A atividade visa simular um ambiente com múltiplos desenvolvedores, adotando co
 2.1 Itens de Configuração
 
 Os principais itens de configuração definidos para o projeto foram:
-
-Código-fonte do sistema (arquivos .html, .css, .js);
-
-Documento README.md com descrição do projeto;
-
-Arquivo de configuração .gitignore;
-
-Relatórios e documentação do projeto;
-
-Scripts de teste e exemplos de uso.
+-Código-fonte do sistema (arquivos .html, .css, .js);
+-Documento README.md com descrição do projeto;
+-Arquivo de configuração .gitignore;
+-Relatórios e documentação do projeto;
+-Scripts de teste e exemplos de uso.
 
 2.2 Convenções de Nomeação
 
 Foram adotadas as seguintes convenções:
-
-Branches com nomes descritivos, utilizando kebab-case (exemplo: feature-adicionar-tarefa);
-
-Commits iniciando com o tipo da alteração:
-
-feat: para novas funcionalidades;
-
-fix: para correções;
-
-docs: para alterações na documentação;
-
-refactor: para melhorias de código.
+-Branches com nomes descritivos, utilizando kebab-case (exemplo: feature-adicionar-tarefa);
+-Commits iniciando com o tipo da alteração:
+-feat: para novas funcionalidades;
+-fix: para correções;
+-docs: para alterações na documentação;
+-refactor: para melhorias de código.
 
 2.3 Política de Versionamento
 
 Foi utilizada a convenção SemVer (Semantic Versioning):
 
-1.0.0 – Versão inicial do sistema;
-
-1.1.0 – Inclusão de novas funcionalidades;
-
-1.1.1 – Correções de bugs ou pequenas alterações.
-
-2.4 Política de Branching
+-1.0.0: Versão inicial do sistema;
+-1.1.0: Inclusão de novas funcionalidades;
+-1.1.1: Correções de bugs ou pequenas alterações.
+-2.4: Política de Branching
 
 O modelo adotado foi baseado em Git Flow, com as seguintes branches principais:
 
