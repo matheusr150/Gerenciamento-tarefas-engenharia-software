@@ -98,42 +98,42 @@ Após os merges bem-sucedidos, foram criadas tags de versão:
 
 4.🧾 Histórico de Commits (Exemplo)
 
-       AUTOR   |           MENSAGEM DO COMMIT	                |    DATA
-___________________________________________________________________________
+       AUTOR     |           MENSAGEM DO COMMIT	                |    DATA
+_________________________________________________________________________________________
 
-Matheus Rocha	 |   feat: criar estrutura inicial do projeto	  |  03/11/2025
+Matheus Rocha	   |      feat: criar estrutura inicial do projeto	  |     03/11/2025
 
-___________________________________________________________________________
+_________________________________________________________________________________________
 
-Ellen Domeni	 |   feat: adicionar validação de formulário	  |  04/11/2025
+Ellen Domeni	   |      feat: adicionar validação de formulário	  |     04/11/2025
 
-___________________________________________________________________________
+_________________________________________________________________________________________
 
-Maria Eduarda	 |   feat: implementar função de marcar tarefa  |  04/11/2025
+Maria Eduarda	   |      feat: implementar função de marcar tarefa       |     04/11/2025
 
-___________________________________________________________________________
+_________________________________________________________________________________________
 
-Luiz Felipe	   |   fix: corrigir erro de CSS	                |  05/11/2025
+Luiz Felipe	   |      fix: corrigir erro de CSS	                |     05/11/2025
 
-___________________________________________________________________________
+_________________________________________________________________________________________
 
-Matheus Rocha	 |   merge: integrar branch develop com main	  |  06/11/2025
+Matheus Rocha    |      merge: integrar branch develop com main	  |     06/11/2025
 
 
 
 5.🧠 Dificuldades e Soluções Adotadas
 
                 DIFICULDADES     |                                   SOLUÇÃO
-______________________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________
 
-Conflitos de merge simultâneos	 |  Reunião rápida entre os membros e uso da ferramenta de comparação visual do GitHub
+Conflitos de merge simultâneos	 |      Reunião rápida entre os membros e uso da ferramenta de comparação visual do GitHub
 
-______________________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________
 
-Falhas de push por autenticação  |  Configuração de tokens pessoais (PAT) e SSH keys
+Falhas de push por autenticação     |      Configuração de tokens pessoais (PAT) e SSH keys
 
-______________________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________
 
-Erros em commits indevidos       |  Uso do comando git revert para desfazer alterações com segurança
+Erros em commits indevidos          |      Uso do comando git revert para desfazer alterações com segurança
 
 
