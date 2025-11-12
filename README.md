@@ -1,81 +1,118 @@
 # Gerenciamento-tarefas-engenharia-software
 Reposiroty de Sistema de Gerenciamento de Tarefas trabalho engenharia de software
-📝 Sistema de Gerenciamento de Tarefas (To-Do List)
-📌 Descrição
+1. Introdução
 
-O Sistema de Gerenciamento de Tarefas (To-Do List) é um projeto simples desenvolvido para fins acadêmicos, com o objetivo de demonstrar o uso de controle de versão e colaboração em equipe utilizando o Git e o GitHub.
-O sistema permite cadastrar, editar, excluir e marcar tarefas como concluídas.
+Este relatório tem como objetivo demonstrar a aplicação prática dos conceitos de Gerência de Configuração de Software (GCS), por meio da utilização do Git e GitHub para controle de versão, colaboração e gestão de artefatos.
+O projeto escolhido é um Sistema de Gerenciamento de Tarefas (To-Do List), que permite cadastrar, editar e excluir tarefas, bem como marcar aquelas já concluídas.
+A atividade visa simular um ambiente com múltiplos desenvolvedores, adotando convenções de versionamento, criação e merge de branches, resolução de conflitos e controle de versões.
 
-🚀 Funcionalidades
+2. Planejamento da Configuração
+2.1 Itens de Configuração
 
-Adicionar novas tarefas;
+Os principais itens de configuração definidos para o projeto foram:
 
-Editar tarefas existentes;
+Código-fonte do sistema (arquivos .html, .css, .js);
 
-Marcar tarefas como concluídas;
+Documento README.md com descrição do projeto;
 
-Excluir tarefas;
+Arquivo de configuração .gitignore;
 
-Interface simples e intuitiva.
+Relatórios e documentação do projeto;
 
-🛠️ Tecnologias Utilizadas
+Scripts de teste e exemplos de uso.
 
-HTML
+2.2 Convenções de Nomeação
 
-CSS
+Foram adotadas as seguintes convenções:
 
-JavaScript
+Branches com nomes descritivos, utilizando kebab-case (exemplo: feature-adicionar-tarefa);
 
-Git / GitHub
+Commits iniciando com o tipo da alteração:
 
-👥 Equipe de Desenvolvimento
-Nome	Função
-Matheus Rocha	Desenvolvedor Principal
-Ellen Domeni	Revisor de Código
-Maria Eduarda	Desenvolvedora
-Luiz Felipe	Gestor de Configuração
-🔀 Estrutura de Branching
+feat: para novas funcionalidades;
 
-O projeto utiliza o modelo Git Flow, com as seguintes branches:
+fix: para correções;
 
-main → versão estável
+docs: para alterações na documentação;
 
-develop → ambiente de desenvolvimento
+refactor: para melhorias de código.
 
-feature/* → novas funcionalidades
+2.3 Política de Versionamento
 
-hotfix/* → correções emergenciais
+Foi utilizada a convenção SemVer (Semantic Versioning):
 
-🧩 Convenção de Commits
+1.0.0 – Versão inicial do sistema;
 
-Os commits seguem o padrão:
+1.1.0 – Inclusão de novas funcionalidades;
 
-feat: nova funcionalidade
+1.1.1 – Correções de bugs ou pequenas alterações.
 
-fix: correção de bug
+2.4 Política de Branching
 
-docs: documentação
+O modelo adotado foi baseado em Git Flow, com as seguintes branches principais:
 
-refactor: melhoria de código
+main – versão estável do código;
 
-Exemplo:
+develop – branch de desenvolvimento;
 
-feat: adicionar função para marcar tarefa como concluída
+feature/* – branches para novas funcionalidades;
 
-🏷️ Versionamento
+hotfix/* – branches para correções rápidas.
 
-O projeto utiliza versionamento semântico (SemVer):
+2.5 Estratégia de Backup e Recuperação
 
-v1.0.0 → Versão inicial
+Como o projeto está hospedado no GitHub, o próprio repositório remoto atua como backup principal.
+Cada integrante também mantém uma cópia local atualizada. Em caso de falha ou exclusão acidental, o código pode ser restaurado via clone do repositório remoto.
 
-v1.1.0 → Inclusão da função de edição
+3. Controle de Versão e Colaboração
 
-v1.1.1 → Correção de bug visual
+Cada integrante trabalhou em branches diferentes:
 
-🧠 Objetivo Acadêmico
+- Matheus Rocha: feature-interface
 
-Este repositório foi criado como parte da atividade prática da disciplina Gerência de Configuração de Software, com foco na utilização de ferramentas de GCS gratuitas e simulação de um ambiente colaborativo.
+- Ellen Domeni: feature-validacao-form
 
-📄 Licença
+- Maria Eduarda: feature-marcar-tarefa
 
-Projeto de uso educacional — sem fins comerciais.
+- Luiz Felipe: hotfix-correcao-css
+
+Durante o desenvolvimento, foram simulados conflitos intencionais ao editar a mesma função no arquivo script.js.
+Após detectar o conflito no pull request, foi feita a resolução manual, escolhendo as partes corretas de cada branch.
+
+Os commits seguiram uma convenção padronizada, por exemplo:
+
+- feat: adicionar botão de excluir tarefa
+- fix: corrigir erro na função de validação
+- docs: atualizar README com instruções de uso
+
+Após os merges bem-sucedidos, foram criadas tags de versão:
+
+- v1.0.0 – versão inicial
+- v1.1.0 – inclusão da função “editar tarefa”
+- v1.1.1 – correção de bug na exclusão de tarefa
+
+4. Histórico de Commits (Resumo)
+AUTOR          |  MENSAGEM DO COMMIT	                        |  DATA
+___________________________________________________________________________
+Matheus Rocha	 |   feat: criar estrutura inicial do projeto	  |  03/11/2025
+___________________________________________________________________________
+Ellen Domeni	 |   feat: adicionar validação de formulário	  |  04/11/2025
+___________________________________________________________________________
+Maria Eduarda	 |   feat: implementar função de marcar tarefa  |  04/11/2025
+___________________________________________________________________________
+Luiz Felipe	   |   fix: corrigir erro de CSS	                |  05/11/2025
+___________________________________________________________________________
+Matheus Rocha	 |   merge: integrar branch develop com main	  |  06/11/2025
+
+
+
+6. Dificuldades e Soluções Adotadas
+
+DIFICULDADES                     | SOLUÇÃO
+______________________________________________________________________________________________________________________
+Conflitos de merge simultâneos	 |  Reunião rápida entre os membros e uso da ferramenta de comparação visual do GitHub
+______________________________________________________________________________________________________________________
+Falhas de push por autenticação  |  Configuração de tokens pessoais (PAT) e SSH keys
+______________________________________________________________________________________________________________________
+Erros em commits indevidos       |  Uso do comando git revert para desfazer alterações com segurança
+
