@@ -1,0 +1,1 @@
+Objetivo: demonstrar como resolver conflito no git ( uma simulação simples) 
