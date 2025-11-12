@@ -98,7 +98,7 @@ Após os merges bem-sucedidos, foram criadas tags de versão:
 
 4.🧾 Histórico de Commits (Exemplo)
 
-AUTOR          |  MENSAGEM DO COMMIT	                        |  DATA
+       AUTOR   |           MENSAGEM DO COMMIT	                |    DATA
 ___________________________________________________________________________
 
 Matheus Rocha	 |   feat: criar estrutura inicial do projeto	  |  03/11/2025
@@ -123,7 +123,7 @@ Matheus Rocha	 |   merge: integrar branch develop com main	  |  06/11/2025
 
 5.🧠 Dificuldades e Soluções Adotadas
 
-DIFICULDADES                     | SOLUÇÃO
+                DIFICULDADES     |                                   SOLUÇÃO
 ______________________________________________________________________________________________________________________
 
 Conflitos de merge simultâneos	 |  Reunião rápida entre os membros e uso da ferramenta de comparação visual do GitHub
