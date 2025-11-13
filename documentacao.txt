@@ -1,0 +1,6 @@
+# Documentação de Uso
+
+1. Acesse o sistema.
+2. Adicione uma nova tarefa.
+3. Marque como concluída quando finalizar.
+4. Remova tarefas que não são mais necessárias.
